@@ -14,9 +14,33 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+.btn {
+  text-transform: none;
+  color: white;
+  border-color: white;
+}
+
+.fs-20-23 {
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.fs-15-18 {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.p-1 {
+  padding: 0 4px;
+}
+
+.m-2 {
+  margin-top: 0;
+}
+
+@media (maxwidth: "640px") {
+  .m-2 {
+    margin-top: 16px;
   }
   body {
     color: white;

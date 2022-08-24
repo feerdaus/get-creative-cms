@@ -1,0 +1,26 @@
+{
+  "title": "Your go-to CMS for blogs, news, articles...",
+  "titleTemplate": "%s - Get Creative CMS",
+  "description": "Content Management System - https://www.profiteria.trade",
+  "openGraph": {
+    "title": "Your go-to CMS for blogs, news, articles...",
+    "description": "Content Management System - https://www.profiteria.trade",
+    "type": "website",
+    "locale": "en_IE",
+    "url": "https://www.profiteria.trade",
+    "site_name": "Content Management System",
+    "images": [
+      {
+        "url": "/logo.svg",
+        "width": 496,
+        "height": 426,
+        "alt": "Content Management System"
+      }
+    ]
+  },
+  "twitter": {
+    "handle": "@nextjs",
+    "site": "@nextjs",
+    "cardType": "summary_large_image"
+  }
+}

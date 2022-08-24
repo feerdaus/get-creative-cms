@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
-}
+  images: {
+    dangerouslyAllowSVG: true,
+    domains: ["ik.imagekit.io"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
