@@ -19,8 +19,9 @@
     "paths": {
       "@config/*": ["config/*"],
       "@components/*": ["components/*"],
-      "@types": ["types"],
-      "@icons": ["icons"]
+      "@icons": ["icons"],
+      "@utils/*": ["utils/*"],
+      "@lib/*": ["lib/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
