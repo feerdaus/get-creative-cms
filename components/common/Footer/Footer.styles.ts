@@ -1,4 +1,4 @@
-import { SxPropType } from "lib/types";
+import { SxPropType } from "@lib/types";
 
 interface FooterStylesProps {
   container: SxPropType;

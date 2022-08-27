@@ -13,7 +13,8 @@ const theme = createTheme({
   palette: {
     primary: {
       main: "#2A4365",
-      light: "#4299E1",
+      dark: "#4299E1",
+      light: "#EDF2F7",
     },
     text: {
       primary: "#E5E5E5",
@@ -38,8 +39,8 @@ const theme = createTheme({
       lineHeight: "44px",
     },
     body1: {
-      fontSize: "24px",
-      lineHeight: "40px",
+      fontSize: "14px",
+      lineHeight: "16px",
     },
     body2: {
       fontSize: "18px",

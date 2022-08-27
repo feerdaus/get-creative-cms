@@ -17,7 +17,7 @@ const Navbar = () => {
       position="sticky"
       color="inherit"
       sx={{
-        backgroundColor: "primary.light",
+        backgroundColor: "primary.dark",
         color: "white",
       }}
       elevation={0}
@@ -49,9 +49,9 @@ const Navbar = () => {
             <Link href="/Pricing">Pricing</Link>
             <Link href="/About">About</Link>
           </Hidden>
-          <Link href="/Sign-in">
+          <Link href="/signup">
             <Button variant="outlined" className="btn fs-20-23">
-              Sign in
+              Sign up
             </Button>
           </Link>
         </Stack>

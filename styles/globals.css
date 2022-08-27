@@ -25,9 +25,9 @@ a {
   line-height: 23px;
 }
 
-.fs-15-18 {
-  font-size: 15px;
-  line-height: 18px;
+.fs-24-30 {
+  font-size: 24px;
+  line-height: 30px;
 }
 
 .p-1 {
@@ -36,6 +36,10 @@ a {
 
 .m-2 {
   margin-top: 0;
+}
+
+.blue-hover:hover {
+  color: #4299e1;
 }
 
 @media (maxwidth: "640px") {

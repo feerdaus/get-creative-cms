@@ -14,7 +14,7 @@ const Landing = () => {
   };
   return (
     <Box component="section" sx={HomeStyles.container}>
-      <Box bgcolor="primary.light" sx={HomeStyles.hero}>
+      <Box bgcolor="primary.dark" sx={HomeStyles.hero}>
         <Box color="white" pt={10} px={2} sx={HomeStyles.heroContent}>
           <Typography variant="h2">
             GetCreative
@@ -33,9 +33,7 @@ const Landing = () => {
               Get Started free
             </Button>
           </Link>
-          <Typography mt={3} className="fs-15-18">
-            *no card needed
-          </Typography>
+          <Typography mt={3}>*no card needed</Typography>
         </Box>
         <Box sx={HomeStyles.dashboardImg}>
           <Image
