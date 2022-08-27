@@ -16,7 +16,8 @@ const Input = styled(InputBase)(({ theme, error }) => ({
   "& .MuiInputBase-input": {
     borderRadius: 4,
     position: "relative",
-    backgroundColor: theme.palette.mode === "light" ? "#fcfcfb" : "#2b2b2b",
+    backgroundColor: theme.palette.mode === "light" ? "#EDF2F7" : "#2b2b2b",
+    color: "black",
     border: `1px solid ${
       !error
         ? alpha(theme.palette.text.primary, 0.1)
